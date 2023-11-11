@@ -1,0 +1,58 @@
+.cardProducto {
+  background-color: rgb(208, 226, 241);
+  border-radius: 10px;
+  width: 18rem;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardProducto img {
+  width: 150px;
+  object-fit: contain;
+}
+
+.cardProducto button {
+  background-color: #373d20;
+  color: #fafafa;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+}
+
+p {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.btnProducto {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+.btnProducto:hover {
+  background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+  background-color: #e9e9e9;
+}
+.btnProducto:active {
+  position: relative;
+  top: 1px;
+}
